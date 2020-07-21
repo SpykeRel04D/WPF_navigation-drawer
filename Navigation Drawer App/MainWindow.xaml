@@ -1,0 +1,54 @@
+﻿<Window x:Class="Navigation_Drawer_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Navigation_Drawer_App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800"
+        ResizeMode="NoResize"
+        Topmost="True"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <!--// Background Color  //-->
+
+        <Grid Background="Black">
+
+            <!--// Navigation Panel //-->
+
+            <Grid x:Name="nav_pnl"
+                  HorizontalAlignment="Left"
+                  Width="65"
+                  Background="#2E333A">
+
+                <StackPanel x:Name="st_pnl">
+
+                    <Grid Height="90">
+                        
+                        <!--// Toggle Button //-->
+
+                        <ToggleButton x:Name="Tg_Btn"
+                                      Grid.Column="0"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Margin="18,-20,0,0"
+                                      Height="30"
+                                      Width="30"
+                                      BorderThickness="0">
+                            
+                            <!--// Toggle Button Default Background image //-->
+                            
+                            
+                        </ToggleButton>
+                    </Grid>
+
+                </StackPanel>
+            </Grid>
+                  
+            
+        </Grid>
+        
+    </Grid>
+</Window>
